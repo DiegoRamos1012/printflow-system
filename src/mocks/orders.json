@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "codigo": "IMP-0482",
+    "customerName": "Maria Oliveira",
+    "customerPhone": "(11) 98765-4321",
+    "printType": "colored",
+    "copies": 2,
+    "binding": true,
+    "observation": "Capa em papel couché 180g",
+    "status": "pending",
+    "calculatedValue": "45.80",
+    "finalValue": "45.80",
+    "createdAt": "2026-05-22T09:15:00.000Z"
+  },
+  {
+    "id": 2,
+    "codigo": "IMP-0481",
+    "customerName": "João Pereira",
+    "customerPhone": "(11) 91234-5678",
+    "printType": "blackWhite",
+    "copies": 1,
+    "binding": false,
+    "observation": "Urgente para reunião às 14h",
+    "status": "printing",
+    "calculatedValue": "12.50",
+    "finalValue": "12.50",
+    "createdAt": "2026-05-22T08:30:00.000Z"
+  },
+  {
+    "id": 3,
+    "codigo": "IMP-0475",
+    "customerName": "Escola Horizonte",
+    "customerPhone": "(11) 3344-5566",
+    "printType": "blackWhite",
+    "copies": 50,
+    "binding": true,
+    "observation": "Apostila completa módulo 3",
+    "status": "ready",
+    "calculatedValue": "320.00",
+    "finalValue": "315.00",
+    "createdAt": "2026-05-21T14:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "codigo": "IMP-0460",
+    "customerName": "Lucas Ferreira",
+    "customerPhone": "(11) 99887-6655",
+    "printType": "colored",
+    "copies": 3,
+    "binding": false,
+    "observation": "",
+    "status": "delivered",
+    "calculatedValue": "28.90",
+    "finalValue": "28.90",
+    "createdAt": "2026-05-19T11:20:00.000Z"
+  },
+  {
+    "id": 5,
+    "codigo": "IMP-0455",
+    "customerName": "Clínica Vida",
+    "customerPhone": "(11) 2233-4455",
+    "printType": "blackWhite",
+    "copies": 10,
+    "binding": false,
+    "observation": "Formulários A4 frente e verso",
+    "status": "delivered",
+    "calculatedValue": "85.00",
+    "finalValue": "82.50",
+    "createdAt": "2026-05-18T16:45:00.000Z"
+  }
+]

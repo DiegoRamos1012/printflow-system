@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Ana Silva",
+    "email": "ana@printflow.local",
+    "password": "printflow123",
+    "createdAt": "2025-01-10T08:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Carlos Mendes",
+    "email": "carlos@printflow.local",
+    "password": "printflow123",
+    "createdAt": "2025-02-15T10:30:00.000Z"
+  }
+]
