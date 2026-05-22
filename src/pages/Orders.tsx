@@ -82,7 +82,7 @@ export function Orders() {
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-2xl font-bold">Pedidos</h2>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground mt-2">
             Use os cards para ver detalhes ou alterar status. A lista atualiza
             automaticamente.
           </p>
