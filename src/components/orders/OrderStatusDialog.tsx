@@ -37,7 +37,7 @@ interface OrderStatusDialogProps {
   onSave: (
     id: number,
     status: OrderStatus,
-    finalValue: string
+    finalValue: string,
   ) => Promise<void>;
   isSaving: boolean;
 }
@@ -51,7 +51,7 @@ export function OrderStatusDialog({
 }: OrderStatusDialogProps) {
   const [status, setStatus] = useState<OrderStatus>(order.status);
   const [finalValueDisplay, setFinalValueDisplay] = useState(() =>
-    toCurrencyInputDisplay(order.finalValue)
+    toCurrencyInputDisplay(order.finalValue),
   );
 
   const finalValueApi = parseCurrencyInputToApi(finalValueDisplay);
@@ -89,10 +89,7 @@ export function OrderStatusDialog({
               disabled={isSaving}
             >
               <SelectTrigger id={`dialog-status-${order.id}`}>
-                <span className="flex items-center gap-2">
-                  <OrderStatusIcon status={status} className="h-4 w-4" />
-                  <SelectValue />
-                </span>
+                <SelectValue />
               </SelectTrigger>
               <SelectContent position="popper" className="z-[200]">
                 {ORDER_STATUS_OPTIONS.map((option) => (
@@ -114,8 +111,8 @@ export function OrderStatusDialog({
             >
               <MessageCircle className="h-5 w-5 shrink-0 text-amber-600 dark:text-amber-400" />
               <p>
-                Ao marcar como <strong>Pronto</strong>, o cliente será notificado
-                automaticamente por uma mensagem no WhatsApp do bot.
+                Ao marcar como <strong>Pronto</strong>, o cliente será
+                notificado automaticamente por uma mensagem no WhatsApp do bot.
               </p>
             </div>
           )}
